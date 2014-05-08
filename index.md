@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "看门大叔"
-tagline: -- 一个努力敲击键盘的码农（My blog）
+tagline: ~ 一个努力敲击键盘的码农（My blog）
 ---
 {% include JB/setup %}
 
