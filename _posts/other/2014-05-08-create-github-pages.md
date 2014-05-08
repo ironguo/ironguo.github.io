@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "中国人"
+title: "create github pages"
 description: ""
 category: 
 tags: []
