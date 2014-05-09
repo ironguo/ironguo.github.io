@@ -71,11 +71,14 @@ Github作为现在最流行的代码仓库，已经得到很多大公司和项�
         Generating public/private rsa key pair.
         Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):
 
-把生成的key文件复制到C:\Documents and Settings\Administrator\.ssh\目录下。
-必须把这两个文件放到当前用户目录的“.ssh”目录下才能生效。
+把生成的key文件复制到C:\Documents and Settings\Administrator\\.ssh\目录下。
+必须把id_rsa、id_rsa.pub这两个文件放到当前用户目录的“.ssh”目录下才能生效。
 在windows中只能在命令行下输入创建“.”开头的文件夹，命令为：
 
         $ mkdir .ssh
 
+### 4、GitHub SSH key设置
 
+Git和GitHub之间使用SSH连接，必须在GitHub上设置好key，才能正常连接。
+*进入GitHub主页，进入*
 
