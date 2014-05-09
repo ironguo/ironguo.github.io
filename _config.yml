@@ -31,6 +31,7 @@ author :
 #
 production_url : http://ironguo.github.io
 
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -102,7 +103,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : google
     google : 
         tracking_id : 'UA-50827374-1'
     getclicky :
