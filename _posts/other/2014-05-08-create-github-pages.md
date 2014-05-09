@@ -3,6 +3,7 @@ layout: post
 title: "使用GitHub Pages创建一个属于你自己的私人博客"
 tagline: ""
 description: "GitHub Pages Git 博客"
+keywords: "xx cc oo"
 category: other
 tags : [Git, GitHub]
 ---
@@ -11,6 +12,10 @@ tags : [Git, GitHub]
 Github作为现在最流行的代码仓库，已经得到很多大公司和项目的青睐，比如jQuery、Twitter等。
 为使项目更方便的被人理解，介绍页面少不了，甚至会需要完整的文档站，Github替你想到了这一点，
 他提供了Github Pages的服务，不仅可以方便的为项目建立介绍站点，也可以用来建立个人博客。
+
+
+
+
 
 **使用GitHub Pages的几个优点：**
 

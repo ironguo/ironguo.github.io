@@ -3,6 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 markdown: kramdown
+excerpt_separator: "\n\n\n\n"
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
@@ -13,10 +14,10 @@ pygments: true
 title : 看门大叔
 tagline: Site Tagline
 author :
-  name : ironguo
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : 郭铁
+  email : tokwok01@gmail.com
+  github : ironguo
+  twitter : kwok
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
