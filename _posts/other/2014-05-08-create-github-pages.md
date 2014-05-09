@@ -80,5 +80,6 @@ Github作为现在最流行的代码仓库，已经得到很多大公司和项�
 ### 4、GitHub SSH key设置
 
 Git和GitHub之间使用SSH连接，必须在GitHub上设置好key，才能正常连接。
-*进入GitHub主页，进入*
+
+进入GitHub主页，进入
 
