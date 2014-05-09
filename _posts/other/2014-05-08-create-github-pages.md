@@ -35,11 +35,11 @@ Github作为现在最流行的代码仓库，已经得到很多大公司和项�
 
 ## 注册GitHub账号
 
-使用GitHub托管代码，必须现在GitHub上注册一个账号。
+使用[GitHub](https://github.com "GitHub")托管代码，必须现在[GitHub](https://github.com)上注册一个账号。
 
 ## 安装Git
 
-下载Git for Windows，使用默认安装，安装完成后即可使用Git。
+[下载Git for Windows](http://git-scm.com/downloads "下载Git for Windows")，使用默认安装，安装完成后即可使用Git。
 
 ## 配置和使用GitHub
 
@@ -47,7 +47,7 @@ Github作为现在最流行的代码仓库，已经得到很多大公司和项�
 
 ### 1、检查SSH key设置
 
-检查自己电脑的SSH 可以设置：
+查看自己电脑上的SSH key设置：
 
         $ cd ~/.ssh
 
