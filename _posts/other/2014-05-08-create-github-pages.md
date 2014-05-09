@@ -3,7 +3,7 @@ layout: post
 title: "使用GitHub Pages创建一个属于你自己的私人博客"
 tagline: ""
 description: "GitHub Pages Git 博客"
-keywords: "xx cc oo"
+keywords: "GitHub Pages Git 博客"
 category: other
 tags : [Git, GitHub]
 ---
@@ -79,7 +79,28 @@ Github作为现在最流行的代码仓库，已经得到很多大公司和项�
 
 ### 4、GitHub SSH key设置
 
+设置Git用户信息
+第一个要配置的是你个人的用户名称和电子邮件地址。这两条配置很重要，每次 Git 提交时都会引用这两条信息，说明是谁提交了更新，
+所以会随更新内容一起被永久纳入历史记录，用户名称必须是你GitHub真实的账号名称：
+
+        $ git config --global user.name "username"
+        $ git config --global user.email lisan@example.com
+
 Git和GitHub之间使用SSH连接，必须在GitHub上设置好key，才能正常连接。
 
-进入GitHub主页，进入
+进入GitHub主页，进入账号设置：
+![setting](/images/githubpages/github-setting.jpg)
+点击左侧SSH keys选项，点击Add SSH key，然后打开C:\Documents and Settings\Administrator\\.ssh\目录下id_rsa.pub文件，
+复制里面的内容粘贴到key文本框中，点击保存即可：
+![add ssh key](/images/githubpages/add-sshkey.jpg)
 
+### 5、测试SSH连接
+
+输入下面命令测试SSH连接是正常：
+
+        $ ssh -T git@github.com
+
+提示以下信息，表示SSH连接成功：
+
+        $ ssh -T git@github.com
+        Hi username! You've successfully authenticated, but GitHub does not provide shell access.
