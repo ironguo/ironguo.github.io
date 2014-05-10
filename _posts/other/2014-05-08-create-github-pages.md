@@ -49,7 +49,7 @@ Github作为现在最流行的代码仓库，已经得到很多大公司和项�
 
 查看自己电脑上的SSH key设置：
 
-      $ cd ~/.ssh
+    $ cd ~/.ssh
 
 如果提示为“No such file or directory”，直接跳到第三步，否则继续。
 
