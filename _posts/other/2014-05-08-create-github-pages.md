@@ -2,8 +2,8 @@
 layout: post
 title: "使用GitHub Pages创建一个属于你自己的私人博客"
 tagline: ""
-description: "GitHub Pages Git 博客"
-keywords: "GitHub Pages Git 博客"
+keywords: "使用GitHub Pages创建一个属于你自己的私人博客,GitHub,Git,GitHub Pages,SSH,Blog,博客"
+description: ""
 category: other
 tags : [Git, GitHub]
 ---
