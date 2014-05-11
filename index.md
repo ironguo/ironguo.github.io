@@ -7,12 +7,9 @@ description: "个人博客ironguo.github.io，从事互联网行业，PHP程序�
 ---
 {% include JB/setup %}
 
-[Jekyll Bootstrap快速入门](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-官方文档: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><a href="{{ BASE_PATH }}{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
-    <li>{{ post.excerpt }}</li>
-  {% endfor %}
-</ul>
+<p>&nbsp;</p>
+{% for post in site.posts %}
+  <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+  <div style="color: #999;font-size: 14px;line-height: 1.6em;">{{ post.excerpt }}</div>
+  <p>&nbsp;</p>
+{% endfor %}

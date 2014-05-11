@@ -4,35 +4,36 @@
 			<header>
 				<div class="unit-head">
 					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">{{ page.title }}</h1>
+						<h1 class="h2 entry-title left">{{ page.title }}</h1>
+						<ul class="list-category list-linear right">
+							<li class="list-head"></li>
+							{% assign categories_list = page.categories %}
+							{% include JB/categories_list %}
+						</ul>
 					</div><!-- unit-inner -->
 				</div><!-- unit-head -->
 			</header>
 
 			<div class="bd">
 				<div class="entry-content">
+					<span class="">{{ page.date | date: '%Y-%m-%d' }}</span>
+					<ul class="list-tag list-linear right">
+						<li class="list-head">标签：</li>
+						{% assign tags_list = page.tags %}
+						{% include JB/tags_list %}
+					</ul>
+					<p></p>
 					{{ content }}
-					<div class="meta">
+					<!-- <div class="meta">
 						<p class="date-publish">
 							发布时间: 
 							<date class="date-pub" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" pubdate>
-							<span class="month"><abbr>{{ page.date | date: '%B' }}</abbr></span>
-							<span class="day">{{ page.date | date: '%d' }}</span>
-							<span class="year">{{ page.date | date: '%Y' }}</span>
+							<span class="year">{{ page.date | date: '%Y' }}</span>-<span class="month"><abbr>{{ page.date | date: '%m' }}</abbr></span>-<span class="day">{{ page.date | date: '%d' }}</span>						
 							</date>
-						</p>
-						<ul class="list-category list-linear">
-							<li class="list-head">分类：</li>
-							{% assign categories_list = page.categories %}
-							{% include JB/categories_list %}
-						</ul>
-						<ul class="list-tag list-linear">
-							<li class="list-head">标签：</li>
-							{% assign tags_list = page.tags %}
-							{% include JB/tags_list %}
-						</ul>
-					</div><!-- meta -->
-				</div><!-- entry-content -->				
+						</p>						
+					</div> --><!-- meta -->
+				</div><!-- entry-content -->	
+				<hr>
 				<div class="misc-content">
 					<div class="social">
 						<ul class="list-linear">
