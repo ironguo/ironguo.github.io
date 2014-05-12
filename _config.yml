@@ -11,10 +11,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Kwok
+title : 看门的大叔
 tagline: Site Tagline
 author :
-  name : 郭铁
+  name : Kwok
   email : tokwok01@gmail.com
   github : ironguo
   twitter : kwok
