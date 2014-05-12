@@ -4,7 +4,7 @@ title: "基于GitHub Pages搭建个人博客"
 tagline: ""
 keywords: "基于GitHub Pages搭建个人博客,GitHub,Git,GitHub Pages,SSH,Blog,博客"
 description: ""
-category: other
+category: web
 tags : [Git, GitHub]
 ---
 {% include JB/setup %}

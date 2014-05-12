@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : "web"
 tagline: "Supporting tagline"
 tags : [ruby, Git, jekyll, GitHub, devkit]
 ---
