@@ -404,7 +404,7 @@ No styleguide reference.
 body {
   font-family: Arial,Helvetica,sans-serif,"微软雅黑";
   font-size: 1em;
-  line-height: 1.625em;
+  line-height: 1.525em;
 }
 /*
 Font size setting
@@ -1493,24 +1493,24 @@ hr {
   float: right;
 }
 
-/* social */
-.social {
+/* social_pic_link */
+.social_pic_link {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-.social a.github {
+.social_pic_link a.github {
 	background: url('/images/github.png') center no-repeat #000000;
 	border: 1px solid #000000;
 }
-.social a.rss {
+.social_pic_link a.rss {
 	background: url('/images/rss.png') center no-repeat #ef7522;
 	border: 1px solid #EF7522;
 }
-.social a.weibo {
+.social_pic_link a.weibo {
 	background: url('/images/weibo_logo.png') center no-repeat #fff;
 	border: 1px solid #fff;
 }
-.social a {
+.social_pic_link a {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-o-border-radius: 50%;
