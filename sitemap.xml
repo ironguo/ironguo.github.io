@@ -14,7 +14,7 @@ title : Sitemap
 		{% endfor %}
 		{% for post in site.posts %}
         <url>
-          <loc>{{site.production_url}}{{ post.url }}l</loc>
+          <loc>{{site.production_url}}{{ post.url }}</loc>
           <changefreq>always</changefreq>
           <priority>1.0</priority>
         </url>
